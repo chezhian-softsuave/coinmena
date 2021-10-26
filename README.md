@@ -78,4 +78,11 @@ open the browser and type
    http://localhost:8000
 ```
 
+## To run the testcases
+
+```bash
+   python manage.py test
+```
+
+
   
