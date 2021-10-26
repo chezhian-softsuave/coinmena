@@ -50,7 +50,7 @@ To run this project, you will need to add the following environment variables to
 ![](https://github.com/chezhian-softsuave/coinmena/blob/master/screenshots/Screenshot%20from%202021-10-25%2023-50-23.png)
 
 ## Database Structure - ER Diagram
-![](https://github.com/chezhian-softsuave/coinmena/blob/master/screenshots/Screenshot from 2021-10-27 00-01-12)
+![](https://github.com/chezhian-softsuave/coinmena/blob/master/screenshots/Screenshot%20from%202021-10-27%2000-01-12.png)
 
 ## Run Locally
 
