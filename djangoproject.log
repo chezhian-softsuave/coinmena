@@ -178,3 +178,6 @@ DETAIL:  Key (id)=(1) already exists.
 2021-10-26 15:10:24,294 [Thread-1    ] [DEBUG] [urllib3.connectionpo]  https://www.alphavantage.co:443 "GET /query?function=CURRENCY_EXCHANGE_RATE&from_currency=BTC&to_currency=USD&apikey=RK1H2OT037M548B4 HTTP/1.1" 200 None
 2021-10-26 15:10:24,313 [Thread-1    ] [INFO ] [django.server       ]  "POST /api/quotes/ HTTP/1.1" 200 34
 2021-10-26 15:10:34,934 [Thread-1    ] [INFO ] [django.server       ]  "GET /api/quotes/ HTTP/1.1" 200 216
+2021-10-26 16:11:59,160 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 16:19:26,708 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 16:20:50,255 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
