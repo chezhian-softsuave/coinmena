@@ -46,8 +46,8 @@ To run this project, you will need to add the following environment variables to
   
 ## Screenshots
 
-![](screenshots/Screenshot from 2021-10-25 23-40-53.png)
-![](screenshots/Screenshot from 2021-10-25 23-50-23.png)
+![](https://github.com/chezhian-softsuave/coinmena/blob/master/screenshots/Screenshot%20from%202021-10-25%2023-40-53.png)
+![](https://github.com/chezhian-softsuave/coinmena/blob/master/screenshots/Screenshot%20from%202021-10-25%2023-50-23.png)
 ## Run Locally
 
 Clone the project
