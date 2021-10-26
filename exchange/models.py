@@ -18,8 +18,3 @@ class ExchangeRate(models.Model):
     def __str__(self):
         return self.exchange_rate
 
-    def save(self, force_insert=False, force_update=False, using=None, update_fields=None):
-        if self.__class__.objects.count():
-            self.pk = self.__class__.objects.first().pk
-        super().save(force_insert, force_update, using, update_fields)
-
