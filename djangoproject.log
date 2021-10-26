@@ -1,0 +1,180 @@
+2021-10-26 14:32:03,545 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 14:32:04,720 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 14:32:22,133 [Thread-2    ] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 2216
+2021-10-26 14:32:22,154 [Thread-2    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+2021-10-26 14:32:22,154 [Thread-5    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+2021-10-26 14:32:22,156 [Thread-1    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 143074
+2021-10-26 14:32:22,161 [Thread-6    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+2021-10-26 14:32:22,162 [Thread-2    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/url-polyfill.min.js HTTP/1.1" 200 6092
+2021-10-26 14:32:22,163 [Thread-5    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 14715
+2021-10-26 14:32:22,165 [Thread-4    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 329649
+2021-10-26 14:32:22,168 [Thread-3    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1038857
+2021-10-26 14:32:22,286 [Thread-3    ] [INFO ] [django.server       ]  "GET /?format=openapi HTTP/1.1" 200 630
+2021-10-26 14:32:22,288 [Thread-5    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+2021-10-26 14:32:28,123 [Thread-5    ] [INFO ] [django.server       ]  "GET /api/quotes/ HTTP/1.1" 200 216
+2021-10-26 14:32:59,787 [Thread-5    ] [WARNI] [django.request      ]  Bad Request: /api/quotes/
+2021-10-26 14:32:59,788 [Thread-5    ] [WARNI] [django.server       ]  "POST /api/quotes/ HTTP/1.1" 400 97
+2021-10-26 14:47:15,495 [MainThread  ] [INFO ] [django.utils.autorel]  /usr/src/app/exchange/views.py changed, reloading.
+2021-10-26 14:47:15,497 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 14:47:16,045 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 14:47:28,537 [MainThread  ] [INFO ] [django.utils.autorel]  /usr/src/app/exchange/views.py changed, reloading.
+2021-10-26 14:47:28,538 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 14:47:28,996 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 14:47:32,906 [Thread-2    ] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 2216
+2021-10-26 14:47:32,928 [Thread-2    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+2021-10-26 14:47:32,928 [Thread-5    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+2021-10-26 14:47:32,932 [Thread-1    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 143074
+2021-10-26 14:47:32,935 [Thread-6    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+2021-10-26 14:47:32,936 [Thread-5    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/url-polyfill.min.js HTTP/1.1" 200 6092
+2021-10-26 14:47:32,936 [Thread-2    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 14715
+2021-10-26 14:47:32,941 [Thread-3    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1038857
+2021-10-26 14:47:32,942 [Thread-4    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 329649
+2021-10-26 14:47:33,049 [Thread-4    ] [INFO ] [django.server       ]  "GET /?format=openapi HTTP/1.1" 200 677
+2021-10-26 14:47:33,051 [Thread-3    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+2021-10-26 14:52:14,717 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 14:52:15,889 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 14:52:29,857 [Thread-1    ] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 2216
+2021-10-26 14:52:29,993 [Thread-1    ] [INFO ] [django.server       ]  "GET /?format=openapi HTTP/1.1" 200 677
+2021-10-26 14:52:35,182 [Thread-1    ] [INFO ] [django.server       ]  "GET /api/quotes/ HTTP/1.1" 200 216
+2021-10-26 14:56:27,664 [Thread-1    ] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 2216
+2021-10-26 14:56:27,697 [Thread-1    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+2021-10-26 14:56:27,697 [Thread-6    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+2021-10-26 14:56:27,698 [Thread-7    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+2021-10-26 14:56:27,699 [Thread-3    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 143074
+2021-10-26 14:56:27,703 [Thread-1    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/url-polyfill.min.js HTTP/1.1" 200 6092
+2021-10-26 14:56:27,703 [Thread-6    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 14715
+2021-10-26 14:56:27,704 [Thread-5    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 329649
+2021-10-26 14:56:27,708 [Thread-4    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1038857
+2021-10-26 14:56:27,826 [Thread-4    ] [INFO ] [django.server       ]  "GET /?format=openapi HTTP/1.1" 200 677
+2021-10-26 14:56:27,826 [Thread-5    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+2021-10-26 14:59:26,514 [MainThread  ] [INFO ] [django.utils.autorel]  /usr/src/app/exchange/views.py changed, reloading.
+2021-10-26 14:59:26,516 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 14:59:27,047 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 14:59:59,920 [MainThread  ] [INFO ] [django.utils.autorel]  /usr/src/app/exchange/views.py changed, reloading.
+2021-10-26 14:59:59,921 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 15:00:00,421 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 15:00:59,752 [MainThread  ] [INFO ] [django.utils.autorel]  /usr/src/app/exchange/views.py changed, reloading.
+2021-10-26 15:00:59,752 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 15:01:00,261 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 15:05:17,414 [Thread-1    ] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 2216
+2021-10-26 15:05:17,433 [Thread-1    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+2021-10-26 15:05:17,434 [Thread-5    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+2021-10-26 15:05:17,439 [Thread-1    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/url-polyfill.min.js HTTP/1.1" 200 6092
+2021-10-26 15:05:17,442 [Thread-6    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+2021-10-26 15:05:17,443 [Thread-2    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 143074
+2021-10-26 15:05:17,444 [Thread-5    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 14715
+2021-10-26 15:05:17,445 [Thread-4    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 329649
+2021-10-26 15:05:17,448 [Thread-3    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1038857
+2021-10-26 15:05:17,567 [Thread-3    ] [INFO ] [django.server       ]  "GET /?format=openapi HTTP/1.1" 200 1947
+2021-10-26 15:05:17,577 [Thread-3    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+2021-10-26 15:07:48,998 [MainThread  ] [INFO ] [django.utils.autorel]  /usr/src/app/exchange/views.py changed, reloading.
+2021-10-26 15:07:48,998 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 15:07:49,484 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 15:07:59,917 [MainThread  ] [INFO ] [django.utils.autorel]  /usr/src/app/exchange/views.py changed, reloading.
+2021-10-26 15:07:59,918 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 15:08:00,426 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 15:08:04,901 [Thread-2    ] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 2216
+2021-10-26 15:08:04,921 [Thread-2    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+2021-10-26 15:08:04,923 [Thread-5    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+2021-10-26 15:08:04,926 [Thread-2    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/url-polyfill.min.js HTTP/1.1" 200 6092
+2021-10-26 15:08:04,928 [Thread-6    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+2021-10-26 15:08:04,929 [Thread-5    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 14715
+2021-10-26 15:08:04,931 [Thread-1    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 143074
+2021-10-26 15:08:04,934 [Thread-3    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1038857
+2021-10-26 15:08:04,935 [Thread-4    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 329649
+2021-10-26 15:08:05,060 [Thread-3    ] [INFO ] [django.server       ]  "GET /?format=openapi HTTP/1.1" 200 2163
+2021-10-26 15:08:05,061 [Thread-4    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+2021-10-26 15:08:32,485 [Thread-4    ] [WARNI] [django.request      ]  Bad Request: /api/quotes/
+2021-10-26 15:08:32,486 [Thread-4    ] [WARNI] [django.server       ]  "POST /api/quotes/ HTTP/1.1" 400 97
+2021-10-26 15:09:11,072 [MainThread  ] [INFO ] [django.utils.autorel]  /usr/src/app/exchange/views.py changed, reloading.
+2021-10-26 15:09:11,072 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 15:09:11,532 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 15:09:15,424 [Thread-1    ] [WARNI] [django.request      ]  Bad Request: /api/quotes/
+2021-10-26 15:09:15,425 [Thread-1    ] [WARNI] [django.server       ]  "POST /api/quotes/ HTTP/1.1" 400 97
+2021-10-26 15:09:18,034 [Thread-1    ] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 2216
+2021-10-26 15:09:18,069 [Thread-1    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+2021-10-26 15:09:18,074 [Thread-5    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+2021-10-26 15:09:18,074 [Thread-2    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 143074
+2021-10-26 15:09:18,076 [Thread-6    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+2021-10-26 15:09:18,079 [Thread-5    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 14715
+2021-10-26 15:09:18,079 [Thread-1    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/url-polyfill.min.js HTTP/1.1" 200 6092
+2021-10-26 15:09:18,083 [Thread-3    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1038857
+2021-10-26 15:09:18,087 [Thread-4    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 329649
+2021-10-26 15:09:18,274 [Thread-3    ] [INFO ] [django.server       ]  "GET /?format=openapi HTTP/1.1" 200 2173
+2021-10-26 15:09:18,274 [Thread-4    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+2021-10-26 15:09:35,317 [Thread-4    ] [DEBUG] [urllib3.connectionpo]  Starting new HTTPS connection (1): www.alphavantage.co:443
+2021-10-26 15:09:39,954 [Thread-4    ] [DEBUG] [urllib3.connectionpo]  https://www.alphavantage.co:443 "GET /query?function=CURRENCY_EXCHANGE_RATE&from_currency=BTC&to_currency=USD&apikey=RK1H2OT037M548B4 HTTP/1.1" 200 None
+2021-10-26 15:09:39,999 [Thread-4    ] [ERROR] [django.request      ]  Internal Server Error: /api/quotes/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "exchange_rate_pkey"
+DETAIL:  Key (id)=(1) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/src/app/exchange/views.py", line 37, in post
+    er = insert_data(response)
+  File "/usr/src/app/exchange/api.py", line 13, in insert_data
+    exchange = ExchangeRate.objects.create(
+  File "/usr/local/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/db/models/query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/usr/src/app/exchange/models.py", line 24, in save
+    super().save(force_insert, force_update, using, update_fields)
+  File "/usr/local/lib/python3.8/site-packages/django/db/models/base.py", line 726, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.8/site-packages/django/db/models/base.py", line 763, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.8/site-packages/django/db/models/base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/usr/local/lib/python3.8/site-packages/django/db/models/base.py", line 906, in _do_insert
+    return manager._insert(
+  File "/usr/local/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/db/models/query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/usr/local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "exchange_rate_pkey"
+DETAIL:  Key (id)=(1) already exists.
+
+2021-10-26 15:09:40,003 [Thread-4    ] [ERROR] [django.server       ]  "POST /api/quotes/ HTTP/1.1" 500 18990
+2021-10-26 15:10:16,192 [MainThread  ] [INFO ] [django.utils.autorel]  /usr/src/app/exchange/models.py changed, reloading.
+2021-10-26 15:10:16,193 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 15:10:16,806 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 15:10:23,395 [Thread-1    ] [DEBUG] [urllib3.connectionpo]  Starting new HTTPS connection (1): www.alphavantage.co:443
+2021-10-26 15:10:24,294 [Thread-1    ] [DEBUG] [urllib3.connectionpo]  https://www.alphavantage.co:443 "GET /query?function=CURRENCY_EXCHANGE_RATE&from_currency=BTC&to_currency=USD&apikey=RK1H2OT037M548B4 HTTP/1.1" 200 None
+2021-10-26 15:10:24,313 [Thread-1    ] [INFO ] [django.server       ]  "POST /api/quotes/ HTTP/1.1" 200 34
+2021-10-26 15:10:34,934 [Thread-1    ] [INFO ] [django.server       ]  "GET /api/quotes/ HTTP/1.1" 200 216
