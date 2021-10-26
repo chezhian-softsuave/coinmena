@@ -9,7 +9,7 @@ class ExchangeRateSerializer(serializers.ModelSerializer):
         fields = ('from_currency_code', 'from_currency_name',
                   'to_currency_code', 'to_currency_name',
                   'exchange_rate',
-                  'last_refreshed', 'time_zone',)
+                  'last_refreshed_time', 'time_zone',)
 
 
 class ExchangeRateDataSerializer(serializers.ModelSerializer):

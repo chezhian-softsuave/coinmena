@@ -181,3 +181,198 @@ DETAIL:  Key (id)=(1) already exists.
 2021-10-26 16:11:59,160 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
 2021-10-26 16:19:26,708 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
 2021-10-26 16:20:50,255 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 16:22:19,450 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 16:22:20,608 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 16:22:28,436 [Thread-1    ] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 2216
+2021-10-26 16:22:28,454 [Thread-1    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+2021-10-26 16:22:28,456 [Thread-5    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+2021-10-26 16:22:28,458 [Thread-6    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+2021-10-26 16:22:28,460 [Thread-4    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 329649
+2021-10-26 16:22:28,463 [Thread-1    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/url-polyfill.min.js HTTP/1.1" 200 6092
+2021-10-26 16:22:28,465 [Thread-5    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 14715
+2021-10-26 16:22:28,468 [Thread-3    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1038857
+2021-10-26 16:22:28,469 [Thread-2    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 143074
+2021-10-26 16:22:28,582 [Thread-3    ] [INFO ] [django.server       ]  "GET /?format=openapi HTTP/1.1" 200 2173
+2021-10-26 16:22:28,582 [Thread-2    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+2021-10-26 16:22:34,569 [Thread-2    ] [INFO ] [django.server       ]  "GET /api/quotes/ HTTP/1.1" 200 216
+2021-10-26 16:28:50,366 [Thread-8    ] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 2216
+2021-10-26 16:28:50,550 [Thread-8    ] [INFO ] [django.server       ]  "GET /?format=openapi HTTP/1.1" 200 2173
+2021-10-26 16:29:06,695 [Thread-8    ] [DEBUG] [urllib3.connectionpo]  Starting new HTTPS connection (1): www.alphavantage.co:443
+2021-10-26 16:29:07,455 [Thread-8    ] [DEBUG] [urllib3.connectionpo]  https://www.alphavantage.co:443 "GET /query?function=CURRENCY_EXCHANGE_RATE&from_currency=BTC&to_currency=USD&apikey=RK1H2OT037M548B4 HTTP/1.1" 200 None
+2021-10-26 16:29:07,472 [Thread-8    ] [INFO ] [django.server       ]  "POST /api/quotes/ HTTP/1.1" 200 34
+2021-10-26 16:41:04,273 [MainThread  ] [INFO ] [django.utils.autorel]  /usr/src/app/exchange/models.py changed, reloading.
+2021-10-26 16:41:04,275 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 16:41:04,997 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 16:42:39,969 [MainThread  ] [INFO ] [django.utils.autorel]  /usr/src/app/exchange/models.py changed, reloading.
+2021-10-26 16:42:39,970 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 16:42:40,457 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 16:43:56,034 [MainThread  ] [INFO ] [django.utils.autorel]  /usr/src/app/exchange/api.py changed, reloading.
+2021-10-26 16:43:56,035 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 16:43:56,522 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 16:51:37,244 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 16:52:30,001 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 16:52:54,763 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 16:52:54,927 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 16:52:55,663 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 16:53:08,481 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 16:53:08,595 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 16:53:09,343 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 16:53:19,655 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 16:57:17,019 [MainThread  ] [INFO ] [django.utils.autorel]  /home/chezhian/PycharmProjects/cryptocurrency/exchange/__init__.py changed, reloading.
+2021-10-26 16:57:17,020 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 16:57:17,426 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 16:57:33,873 [MainThread  ] [INFO ] [django.utils.autorel]  /home/chezhian/PycharmProjects/cryptocurrency/exchange/__init__.py changed, reloading.
+2021-10-26 16:57:33,874 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 16:57:34,306 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 16:57:37,563 [MainThread  ] [INFO ] [django.utils.autorel]  /home/chezhian/PycharmProjects/cryptocurrency/exchange/__init__.py changed, reloading.
+2021-10-26 16:57:37,564 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 16:57:37,947 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 16:58:47,149 [MainThread  ] [INFO ] [django.utils.autorel]  /home/chezhian/PycharmProjects/cryptocurrency/exchange/models.py changed, reloading.
+2021-10-26 16:58:47,149 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 16:58:47,532 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 16:58:51,154 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 16:58:58,916 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 16:59:09,059 [MainThread  ] [INFO ] [django.utils.autorel]  /home/chezhian/PycharmProjects/cryptocurrency/exchange/serializers.py changed, reloading.
+2021-10-26 16:59:09,060 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 16:59:09,472 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 16:59:33,558 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 16:59:33,722 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 16:59:35,607 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 16:59:46,294 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 16:59:46,461 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 17:10:48,860 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 17:10:53,858 [Thread-1    ] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 2216
+2021-10-26 17:10:53,890 [Thread-1    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+2021-10-26 17:10:53,890 [Thread-3    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+2021-10-26 17:10:53,891 [Thread-4    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+2021-10-26 17:10:53,891 [Thread-5    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+2021-10-26 17:10:53,892 [Thread-2    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+2021-10-26 17:10:53,894 [Thread-1    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/url-polyfill.min.js HTTP/1.1" 304 0
+2021-10-26 17:10:53,894 [Thread-6    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+2021-10-26 17:10:53,895 [Thread-3    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+2021-10-26 17:10:54,010 [Thread-3    ] [INFO ] [django.server       ]  "GET /?format=openapi HTTP/1.1" 200 2188
+2021-10-26 17:11:00,397 [Thread-3    ] [INFO ] [django.server       ]  "GET /api/quotes/ HTTP/1.1" 200 221
+2021-10-26 17:12:20,493 [MainThread  ] [INFO ] [django.utils.autorel]  /home/chezhian/PycharmProjects/cryptocurrency/exchange/signals.py changed, reloading.
+2021-10-26 17:12:20,493 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 17:12:20,900 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 17:13:00,930 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 17:13:01,676 [MainThread  ] [INFO ] [django.utils.autorel]  /home/chezhian/PycharmProjects/cryptocurrency/exchange/migrations/0001_initial.py changed, reloading.
+2021-10-26 17:13:01,677 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 17:13:02,089 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 17:14:27,825 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 17:15:15,013 [Thread-1    ] [ERROR] [django.request      ]  Internal Server Error: /api/quotes/
+Traceback (most recent call last):
+  File "/home/chezhian/PycharmProjects/cryptocurrency/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/chezhian/PycharmProjects/cryptocurrency/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chezhian/PycharmProjects/cryptocurrency/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/chezhian/PycharmProjects/cryptocurrency/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/chezhian/PycharmProjects/cryptocurrency/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/chezhian/PycharmProjects/cryptocurrency/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/chezhian/PycharmProjects/cryptocurrency/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/chezhian/PycharmProjects/cryptocurrency/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/chezhian/PycharmProjects/cryptocurrency/exchange/views.py", line 16, in get
+    er = ExchangeRate.objects.all().latest('id')
+  File "/home/chezhian/PycharmProjects/cryptocurrency/venv/lib/python3.8/site-packages/django/db/models/query.py", line 670, in latest
+    return self.reverse()._earliest(*fields)
+  File "/home/chezhian/PycharmProjects/cryptocurrency/venv/lib/python3.8/site-packages/django/db/models/query.py", line 664, in _earliest
+    return obj.get()
+  File "/home/chezhian/PycharmProjects/cryptocurrency/venv/lib/python3.8/site-packages/django/db/models/query.py", line 435, in get
+    raise self.model.DoesNotExist(
+exchange.models.ExchangeRate.DoesNotExist: ExchangeRate matching query does not exist.
+2021-10-26 17:15:15,014 [Thread-1    ] [ERROR] [django.server       ]  "GET /api/quotes/ HTTP/1.1" 500 18990
+2021-10-26 17:16:21,335 [MainThread  ] [INFO ] [django.utils.autorel]  /home/chezhian/PycharmProjects/cryptocurrency/exchange/views.py changed, reloading.
+2021-10-26 17:16:21,336 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 17:16:21,735 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 17:16:31,077 [Thread-1    ] [INFO ] [django.server       ]  "GET /api/quotes/ HTTP/1.1" 200 2
+2021-10-26 17:17:09,708 [MainThread  ] [INFO ] [django.utils.autorel]  /home/chezhian/PycharmProjects/cryptocurrency/exchange/views.py changed, reloading.
+2021-10-26 17:17:09,709 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 17:17:10,120 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 17:17:11,058 [Thread-1    ] [INFO ] [django.server       ]  "GET /api/quotes/ HTTP/1.1" 200 2
+2021-10-26 17:18:52,055 [Thread-1    ] [INFO ] [django.server       ]  "GET /api/quotes/ HTTP/1.1" 200 221
+2021-10-26 17:32:22,028 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 17:32:23,192 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 17:32:36,036 [Thread-1    ] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 2216
+2021-10-26 17:32:36,554 [Thread-1    ] [INFO ] [django.server       ]  "GET /?format=openapi HTTP/1.1" 200 2177
+2021-10-26 17:32:43,508 [Thread-1    ] [ERROR] [django.request      ]  Internal Server Error: /api/quotes/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column exchange_rate.last_refreshed_time does not exist
+LINE 1: ..._currency_name", "exchange_rate"."exchange_rate", "exchange_...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/src/app/exchange/views.py", line 17, in get
+    er = ExchangeRate.objects.get()
+  File "/usr/local/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/db/models/query.py", line 431, in get
+    num = len(clone)
+  File "/usr/local/lib/python3.8/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.8/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python3.8/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/usr/local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column exchange_rate.last_refreshed_time does not exist
+LINE 1: ..._currency_name", "exchange_rate"."exchange_rate", "exchange_...
+                                                             ^
+
+2021-10-26 17:32:43,510 [Thread-1    ] [ERROR] [django.server       ]  "GET /api/quotes/ HTTP/1.1" 500 18453
+2021-10-26 17:33:17,083 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 17:33:51,681 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 17:34:27,581 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: EpollSelector
+2021-10-26 17:34:29,533 [MainThread  ] [INFO ] [django.utils.autorel]  Watching for file changes with StatReloader
+2021-10-26 17:34:32,483 [Thread-2    ] [INFO ] [django.server       ]  "GET / HTTP/1.1" 200 2216
+2021-10-26 17:34:32,521 [Thread-2    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+2021-10-26 17:34:32,526 [Thread-5    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+2021-10-26 17:34:32,527 [Thread-2    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/url-polyfill.min.js HTTP/1.1" 200 6092
+2021-10-26 17:34:32,528 [Thread-6    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+2021-10-26 17:34:32,532 [Thread-1    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 143074
+2021-10-26 17:34:32,534 [Thread-5    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 14715
+2021-10-26 17:34:32,535 [Thread-4    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 329649
+2021-10-26 17:34:32,539 [Thread-3    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1038857
+2021-10-26 17:34:32,667 [Thread-3    ] [INFO ] [django.server       ]  "GET /?format=openapi HTTP/1.1" 200 2177
+2021-10-26 17:34:32,674 [Thread-3    ] [INFO ] [django.server       ]  "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+2021-10-26 17:34:38,945 [Thread-3    ] [INFO ] [django.server       ]  "GET /api/quotes/ HTTP/1.1" 200 221

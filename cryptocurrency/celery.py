@@ -16,7 +16,7 @@ app.config_from_object('django.conf:settings', namespace='CELERY')
 app.conf.beat_schedule = {
     'add-every-hour-crontab': {
         'task': 'exchange.tasks.exchange_data',
-        'schedule': crontab(hour=env('TIME_INTERVAL')),
+        'schedule': 60,
     },
 }
 

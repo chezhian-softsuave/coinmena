@@ -13,12 +13,14 @@ from exchange.serializers import ExchangeRateSerializer, ExchangeRateDataSeriali
 class ExchangeRateGenericAPIView(APIView):
     @swagger_auto_schema(responses={200: ExchangeRateSerializer()})
     def get(self, request):
-        er = ExchangeRate.objects.all().latest('id')
+        try:
+            er = ExchangeRate.objects.get()
+        except ExchangeRate.DoesNotExist:
+            return Response({}, status=status.HTTP_200_OK)
         serializer = ExchangeRateSerializer(er)
         return Response(serializer.data, status=status.HTTP_200_OK)
 
     @swagger_auto_schema(
-        operation_description="description",
         responses={201: ExchangeRateDataSerializer()},
         request_body=openapi.Schema(
             type=openapi.TYPE_OBJECT,
