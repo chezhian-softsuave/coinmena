@@ -18,5 +18,7 @@ def exchange_data():
         insert_data(response)
     elif status_code == 400:
         print("Server API is getting bad request")
-    else:
+    elif status_code == 500:
         print("Problem with connecting API of alphavantage")
+    else:
+        print("Connection Error")
