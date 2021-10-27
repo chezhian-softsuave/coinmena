@@ -56,11 +56,11 @@ TIME_INTERVAL=1
   
 ## Screenshots
 
-![](https://github.com/chezhian-softsuave/coinmena/blob/master/screenshots/Screenshot%20from%202021-10-25%2023-40-53.png)
-![](https://github.com/chezhian-softsuave/coinmena/blob/master/screenshots/Screenshot%20from%202021-10-25%2023-50-23.png)
+![](https://github.com/chezhian-softsuave/coinmena/blob/master/screenshots/apiscreen1.png)
+![](https://github.com/chezhian-softsuave/coinmena/blob/master/screenshots/apiscreen2.png)
 
 ## Database Structure - ER Diagram
-![](https://github.com/chezhian-softsuave/coinmena/blob/master/screenshots/Screenshot%20from%202021-10-27%2000-01-12.png)
+![](https://github.com/chezhian-softsuave/coinmena/blob/master/screenshots/dbstructure.png)
 
 ## Run Locally
 
