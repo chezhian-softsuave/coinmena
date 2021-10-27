@@ -41,7 +41,17 @@ To deploy this project run
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`API_KEY` from alphavantage website
+'''bash
+API_KEY=RK1H2OT037M548B4
+DB_HOST=pgdb
+DB_NAME=coinmena
+DB_USER=postgres
+DB_PASS=12345
+POSTGRES_DB=coinmena
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=12345
+TIME_INTERVAL=1
+'''
 
   
 ## Screenshots
